@@ -34,5 +34,10 @@
             --rm \
             realtime-gnn-intrusion-app <interface>
           
-        
+# 📌 How to Train with Your Own Data (not for docker)
+    To train the model using your own dataset, follow these steps:
 
+        1. Prepare your data: First, place the path to your training data within the data_processing_incremental.py script.
+        2. Process the data: Run the data processing script: 'python data_processing_incremental.py'
+        3. Train the model: After the data is processed, initiate training: 'python train_incremental.py'
+        4. Finally, run sudo 'python monitor.py <network_interface>'
