@@ -1,4 +1,8 @@
-# RealTime-Intrusion-Detection-GNNs
+# 🛡️ RealTime-Intrusion-Detection-GNNs
+
+# 📦 Prerequisites & Installation
+    System Requirements
+      Python 3.10
 
 # ✅ Features
     1. Captures live traffic using tcpdump
