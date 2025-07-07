@@ -28,7 +28,7 @@
     OR
         Via docker (no need for prerequisites then)
           Install by:
-            docker push whitewolf217/realtime-gnn-intrusion-app:tagname
+            docker pull whitewolf217/realtime-gnn-intrusion-app
           Run by:
             sudo docker run \
             --net=host \
