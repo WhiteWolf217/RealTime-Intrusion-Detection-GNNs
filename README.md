@@ -1,5 +1,7 @@
 # 🛡️ RealTime-Intrusion-Detection-GNNs
 
+The real-time system captures live network traffic using tcpdump, converts packets into flows, builds a dynamic graph, and uses the pre-trained GNN model to detect suspicious behavior as it happens. If any anomaly or attack is detected, it raises terminal alerts instantly—making it suitable for on-the-spot network monitoring.
+
 # 📦 Prerequisites & Installation
     System Requirements
       Python 3.10
